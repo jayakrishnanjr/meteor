@@ -60,7 +60,7 @@ DDPCommon.MethodInvocation = function (options) {
    */
   this.connection = options.connection;
 
-  // The seed for randomStream value generation
+  // The seed for random Stream value generation
   this.randomSeed = options.randomSeed;
 
   // This is set by RandomStream.get; and holds the random stream state
